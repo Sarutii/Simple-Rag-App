@@ -20,7 +20,7 @@ def build_context_package(
     word_budget=150,
     current_only=True,
     min_score_ratio=0.40,
-    min_absolute_score=0.05,
+    min_absolute_score=0.6,
 ):
 
     rows = retrieve.hybrid_search(collection, query, k=retrieval_k, alpha=alpha)
