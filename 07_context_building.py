@@ -18,7 +18,7 @@ def build_context_package(
     max_context_chunks=3,
     max_chunks_per_document=1,
     word_budget=150,
-    current_only=True,
+    current_only=False,
     min_score_ratio=0.40,
     min_absolute_score=0.6,
 ):
