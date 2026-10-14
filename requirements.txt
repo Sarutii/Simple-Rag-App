@@ -1,0 +1,9 @@
+streamlit
+chromadb
+rank-bm25
+sentence-transformers
+numpy
+openai
+python-dotenv
+nltk
+pandas
